@@ -33,6 +33,35 @@ entries:
       artifacthub.io/changes: |
         - "[Changed]: https://github.com/openkruise/kruise/blob/master/CHANGELOG.md"
         - "[Security]: Fix potential security issues of dependent packages"
+        - "[Changed]: Kruise-daemon add nodeAffinity for skip virtual-kubelet node"
+    apiVersion: v1
+    appVersion: 1.7.0-alpha.1
+    created: "2024-08-26T08:32:18.193576097Z"
+    description: Helm chart for kruise components
+    digest: f10c98f8866eef11235cb78d5a5c92495c4d28b9e1c35a3cde8ef42ffcac7b96
+    home: https://openkruise.io
+    icon: https://openkruise.io/img/openkruise-logo-bg.jpg
+    keywords:
+    - openkruise
+    - kubernetes
+    - kruise
+    - workload
+    - statefulset
+    - sidecar
+    - job
+    - deployment
+    - cloneset
+    kubeVersion: '>= 1.18.0-0'
+    name: kruise
+    sources:
+    - https://github.com/openkruise/kruise
+    urls:
+    - https://github.com/runkecheng/kruise-charts/releases/download/kruise-1.7.0-alpha.1/kruise-1.7.0-alpha.1.tgz
+    version: 1.7.0-alpha.1
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed]: https://github.com/openkruise/kruise/blob/master/CHANGELOG.md"
+        - "[Security]: Fix potential security issues of dependent packages"
     apiVersion: v1
     appVersion: 1.6.3
     created: "2024-04-28T08:15:16.208602916Z"
@@ -854,6 +883,22 @@ entries:
     version: 0.1.0
   kruise-rollout:
   - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2024-08-26T08:32:18.500573526Z"
+    description: Helm chart for kruise-rollout components
+    digest: 617d29f6fb281100a7780eb4965e25a55f9a9f289ca5d2d46745b8521fb11750
+    home: https://openkruise.io
+    icon: https://openkruise.io/img/openkruise-logo-bg.jpg
+    keywords:
+    - rollout
+    kubeVersion: '>= 1.19.0-0'
+    name: kruise-rollout
+    sources:
+    - https://github.com/openkruise/rollouts
+    urls:
+    - https://github.com/runkecheng/kruise-charts/releases/download/kruise-rollout-0.6.0/kruise-rollout-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v1
     appVersion: 0.5.0
     created: "2023-12-21T08:11:21.854267581Z"
     description: Helm chart for kruise-rollout components
@@ -1040,4 +1085,4 @@ entries:
     urls:
     - https://github.com/openkruise/charts/releases/download/kruise-state-metrics-0.1.0/kruise-state-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-20T10:19:03.476232295Z"
+generated: "2024-08-26T08:32:18.608049275Z"
