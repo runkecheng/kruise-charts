@@ -6,7 +6,7 @@
 installation:
   namespace: kruise-rollout
   createNamespace: true
-
+# test
 rollout:
   fullname: kruise-rollout-controller-manager
   healthBindPort: "8081"
