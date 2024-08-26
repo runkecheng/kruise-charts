@@ -16,7 +16,7 @@ manager:
   replicas: 2
   image:
     repository: openkruise/kruise-manager
-    tag: v0.6.1
+    tag: v0.6.2
   webhook:
     port: 9876
 

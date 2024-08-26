@@ -1,4 +1,4 @@
-# Kruise Game v0.6.1
+# Kruise Game v0.6.2
 
 ## Configuration
 

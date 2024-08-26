@@ -45,6 +45,6 @@ jobs:
           charts_dir: charts
           config: "./.github/configs/cr.yaml"
         env:
-          CR_TOKEN: "${{ secrets.GH_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           CR_SKIP_EXISTING: "true"
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
