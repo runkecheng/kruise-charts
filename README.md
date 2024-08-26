@@ -6,7 +6,7 @@
 OpenKruise Charts is a collection of **community maintained** charts for http://openkruise.io/ projects. The charts can be added using following command:
 
 ```
-helm repo add openkruise https://openkruise.github.io/charts
+helm repo add openkruise-sqb https://runkecheng.github.io/kruise-charts/
 ```
 
 ## Contributing
