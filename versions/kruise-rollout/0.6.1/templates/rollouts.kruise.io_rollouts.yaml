@@ -43,6 +43,9 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: AGE
       type: date
+    - jsonPath: .spec.disabled
+      name: DISABLED
+      type: boolean
     name: v1alpha1
     schema:
       openAPIV3Schema:
